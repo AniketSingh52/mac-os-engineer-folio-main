@@ -1,4 +1,4 @@
-# Aniket Singh Windows11 Theme Portfolio
+# Aniket Singh Mac-OS Theme Portfolio
 Welcome!
 A sleek and modern developer portfolio designed with a Mac OS -inspired UI. This portfolio showcases sections like **About Me**, **Projects**, **Education**, **Contact**, and includes a downloadable **Resume**. Built to reflect the style and user experience of the Mac OS, it offers a unique and interactive way to present your work and personality.
 
