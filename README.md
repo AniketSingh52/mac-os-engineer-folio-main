@@ -48,3 +48,6 @@ npm run dev
 # Step 5: Build for production in the dist/ directory
 npm run build
 ```
+## 📸 Preview
+
+![Mac OS Portfolio Preview](MacOS_Portfolio.png)
