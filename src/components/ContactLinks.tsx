@@ -126,6 +126,11 @@ const ContactSection = () => {
           >
             Send Message
           </button>
+          {formSubmitted && (
+            <p className="text-green-500 text-sm font-medium mt-4">
+              ✅ Thank you for reaching out! I’ll get back to you soon.
+            </p>
+          )}
         </form>
       </div>
 
