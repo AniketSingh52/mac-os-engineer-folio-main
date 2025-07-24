@@ -16,7 +16,7 @@ const projects: Project[] = [
     description: "A web-based leave management system with role-based access, multi-level approval, and a streamlined application process for faculty, HODs, and administrators for managing their leaves.",
     technologies: ["Php", "Mysql", "Html", "TailwindCss", "Jquery"],
     image: "/VazeLMPr1.png",
-    github: "https://github.com/NitinSingh0/vaze-leave-management",
+    github: "https://github.com/AniketSingh52/vaze-leave-management",
     // demo: "#",
     status: "Completed"
   },
@@ -34,7 +34,7 @@ const projects: Project[] = [
     description: "Admin dashboard for Monitoring & managing user activities, Status, Posts, Events, Admin Role Management,Access privileges and moderation the VolunteerHub platform.",
     technologies: ["Php", "Mysql", "Html", "TailwindCss","Redis"],
     image: "/VMSAP.png",
-    github: "https://github.com/AniketSingh52/Volunteer_Managment_System",
+    github: "https://github.com/AniketSingh52/VMS_Admin_Panel",
     demo: "https://volunteermanagement.42web.io/main/pages/admin/login_in2.php",
     status: "Completed"
   },
@@ -51,7 +51,7 @@ const projects: Project[] = [
     description: "Working on an official website for V.G. Vaze College, designed to provide an intuitive and informative digital presence for students and faculty. Features include announcements, academic resources, and event updates.",
     technologies: ["Php", "Mysql", "Html", "MySQL", "TailwindCss", "Javascript"],
     image: "/UnderConstruction.png",
-    github: "https://github.com/rushiii3/KETS",
+    github: "https://github.com/AniketSingh52/KETS",
     status: "In Progress"
   },
   {
@@ -59,7 +59,7 @@ const projects: Project[] = [
     description: "A streamlined Faculty Allotment Exam System designed for efficient professor allocation during exams. Features an intuitive dashboard for administrators to manage and track assignments seamlessly.",
     technologies: ["Php", "Mysql", "Html", "MySQL", "TailwindCss", "Javascript"],
     image: "/UnderConstruction.png",
-    github: "https://github.com/NitinSingh0/Examination",
+    github: "https://github.com/AniketSingh52/Examination2",
     status: "In Progress"
   },  
   {
@@ -80,15 +80,15 @@ const projects: Project[] = [
     demo: "#",
     status: "Designing"
   },
-  ,  
-  {
-    title: "EngineX- A Personalized 3d Render Engine",
-    description: "A render engine that allows users to create and customize 3D models with ease. It features a user-friendly interface, real-time rendering, and a variety of tools for manipulating 3D objects.",
-    technologies: ["Ruby", "Rust", "React", "Java", "Express"],
-    image: "/UnderConstruction.png",
-    github: "https://camo.githubusercontent.com/48d882ed04114aa37cc9aead70d4e8ef72ef9165933ae484f5a286c132cd5f13/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d53616d616c6153756d616e746830323632266c616e67735f636f756e743d35267468656d653d636f6465535441434b722626686964655f626f726465723d66616c7365266c61796f75743d636f6d70616374",
-    status: "Planning"
-  }
+  // ,  
+  // {
+  //   title: "EngineX- A Personalized 3d Render Engine",
+  //   description: "A render engine that allows users to create and customize 3D models with ease. It features a user-friendly interface, real-time rendering, and a variety of tools for manipulating 3D objects.",
+  //   technologies: ["Ruby", "Rust", "React", "Java", "Express"],
+  //   image: "/UnderConstruction.png",
+  //   github: "https://camo.githubusercontent.com/48d882ed04114aa37cc9aead70d4e8ef72ef9165933ae484f5a286c132cd5f13/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d53616d616c6153756d616e746830323632266c616e67735f636f756e743d35267468656d653d636f6465535441434b722626686964655f626f726465723d66616c7365266c61796f75743d636f6d70616374",
+  //   status: "Planning"
+  // }
 ];
 
 const ProjectCard = ({ project }: { project: Project }) => {
