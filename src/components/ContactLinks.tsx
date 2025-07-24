@@ -10,7 +10,7 @@ const contactLinks = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/aniket52777",
+    url: "https://github.com/aniketsingh52",
     icon: Github,
     color: "from-gray-600 via-gray-800 to-gray-400",
     description: "Code Repository"
@@ -31,7 +31,7 @@ const contactLinks = [
   },
   {
     name: "Portfolio",
-    url: "https://youtube.com/@ajaypandey",
+    url: "https://aniketportfolio3d.vercel.app/",
     icon: Link,
     color: "from-purple-600 via-purple-700 to-purple-400",
     description: "Personal Website"
@@ -79,9 +79,9 @@ const ContactSection = () => {
         <p className="text-muted-foreground mb-6">
           Get a comprehensive overview of my experience, skills, and achievements.
         </p>
-        <button className="bg-gradient-to-r from-primary to-accent px-8 py-3 rounded-xl font-semibold text-primary-foreground hover:scale-105 transition-all duration-300 glow">
+        <a href="Resume.pdf" download="Aniket_Singh_Resume.pdf"  className="bg-gradient-to-r from-primary to-accent px-8 py-3 rounded-xl font-semibold text-primary-foreground hover:scale-105 transition-all duration-300 glow">
           Download PDF Resume
-        </button>
+        </a>
       </div>
 
       {/* Contact Form */}
