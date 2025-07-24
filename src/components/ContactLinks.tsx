@@ -83,7 +83,7 @@ const ContactSection = () => {
         >
           Download PDF Resume
         </a>
-        </a>
+       
       </div>
 
       {/* Contact Form */}
