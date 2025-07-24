@@ -13,7 +13,7 @@ const timelineData: TimelineItem[] = [
     title: "Bachelor of Science in Information Technology",
     institution: "University of Mumbai",
     description:
-      "Achieved a 9.98 SGPA while gaining expertise in software development, databases, and web technologies. Worked on projects involving redis, php, Typescript, .NET and database management. Active participant in tech clubs, hackathons, and research competitions. Developed a leave management system and Volunteer Management System.",
+      "Achieved a 9.95 CGPA while gaining expertise in software development, databases, and web technologies. Worked on projects involving redis, php, Typescript, .NET and database management. Active participant in tech clubs, hackathons, and research competitions. Developed a leave management system and Volunteer Management System.",
     gpa: "3.8/4.0",
     logo: "/image3.png"
   },
