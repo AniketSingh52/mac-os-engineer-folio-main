@@ -12,7 +12,6 @@ const contactLinks = [
   {
     name: "GitHub",
     url: "https://github.com/aniketsingh52",
-    url: "https://github.com/aniketsingh52",
     icon: Github,
     color: "from-gray-600 via-gray-800 to-gray-400",
     description: "Code Repository",
@@ -26,7 +25,6 @@ const contactLinks = [
   },
   {
     name: "Portfolio",
-    url: "https://aniketportfolio3d.vercel.app/",
     url: "https://aniketportfolio3d.vercel.app/",
     icon: Link,
     color: "from-purple-600 via-purple-700 to-purple-400",
