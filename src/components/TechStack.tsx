@@ -59,12 +59,12 @@ const TechStack = () => {
           { name: "PHP", logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" },
           { name: "HTML", logo: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" },
           { name: "Tailwind CSS", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
-          { name: "Node.js", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" },
-          { name: "React", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
+          // { name: "Node.js", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" },
+          // { name: "React", logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
           { name: "TypeScript", logo: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" },
-          {name: "Kotlin", logo: "https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" },
+          // {name: "Kotlin", logo: "https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" },
           { name: "GSAP", logo: "/gsap.svg" },
-          { name: ".NET", logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Dot-net-original-wordmark.svg" }
+          // { name: ".NET", logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Dot-net-original-wordmark.svg" }
         ].map((tech) => (
           <div key={tech.name} className="glass p-4 rounded-lg hover:scale-105 transition-all duration-300 group cursor-pointer">
             <div className="text-center space-y-2">
@@ -108,10 +108,11 @@ const TechStack = () => {
         {[
           { name: "Git", logo: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" },
           { name: "GitHub", logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" },
-          { name: "Docker", logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" },
-          { name: "Unreal Engine", logo: "https://upload.wikimedia.org/wikipedia/commons/d/da/Unreal_Engine_Logo.svg" },
+          // { name: "Docker", logo: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" },
+      { name: "Vercel", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ionicons_logo-vercel.svg" },
+          // { name: "Unreal Engine", logo: "https://upload.wikimedia.org/wikipedia/commons/d/da/Unreal_Engine_Logo.svg" },
           { name: "Blender", logo: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg" },
-          { name: "Autodesk Maya", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Autodesk_Maya_logo.svg" }
+          // { name: "Autodesk Maya", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Autodesk_Maya_logo.svg" }
         ].map((tool) => (
           <div key={tool.name} className="glass p-4 rounded-lg hover:scale-105 transition-all duration-300 group cursor-pointer">
             <div className="text-center space-y-2">
