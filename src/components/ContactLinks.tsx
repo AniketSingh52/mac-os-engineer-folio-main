@@ -69,7 +69,7 @@ const ContactSection = () => {
   return (
     <div className="space-y-8">
       <ContactLinks />
-      
+
       {/* Resume Download */}
       <div className="glass-card p-6 rounded-xl text-center">
         <h3 className="text-xl font-semibold text-gradient mb-4">Download Resume</h3>
@@ -136,26 +136,26 @@ const ContactSection = () => {
 
       {/* Current Availability */}
       <div className="glass-card p-6 rounded-xl border border-green-500 text-center space-y-6">
-  <h3 className="text-2xl text-gradient font-bold flex items-center justify-center gap-2 animate-pulse">
+        <h3 className="text-2xl text-gradient font-bold flex items-center justify-center gap-2 animate-pulse">
           <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse" />
-    Current Availability
-    <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse" />
-  </h3>
-  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm md:text-base font-medium">
-    <div className="glass-card p-6 rounded-xl hover:scale-[1.02] transition-all duration-300 group">
+          Current Availability
+          <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse" />
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm md:text-base font-medium">
+          <div className="glass-card p-6 rounded-xl hover:scale-[1.02] transition-all duration-300 group">
             <p className="text-gradient font-bold">Status</p>
-      <p className="text-cyan-500 font-semibold font-mono text-lg">Available for Projects</p>
-    </div>
+            <p className="text-cyan-500 font-semibold font-mono text-lg">Available for Projects</p>
+          </div>
           <div className="glass-card p-6 rounded-xl hover:scale-[1.02] transition-all duration-300 group">
             <p className="text-gradient font-bold">Response Time</p>
-      <p className="text-cyan-500 font-semibold text-lg font-mono">Within 24 Hours</p>
-    </div>
+            <p className="text-cyan-500 font-semibold text-lg font-mono">Within 24 Hours</p>
+          </div>
           <div className="glass-card p-6 rounded-xl hover:scale-[1.02] transition-all duration-300 group">
-      <p className="text-gradient font-bold">Preferred Contact</p>
-      <p className="text-cyan-500 font-semibold text-lg font-mono">Email or LinkedIn</p>
-    </div>
-  </div>
-</div>
+            <p className="text-gradient font-bold">Preferred Contact</p>
+            <p className="text-cyan-500 font-semibold text-lg font-mono">Email or LinkedIn</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
